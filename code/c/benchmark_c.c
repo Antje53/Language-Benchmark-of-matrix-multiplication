@@ -40,7 +40,7 @@ void benchmark() {
             double seconds = (double)(end_cpu - start_cpu) / CLOCKS_PER_SEC;
             double est_mem = (3.0 * n * n * 8.0) / (1024.0 * 1024.0);
             
-            printf("Run %d: Wall %.4fs | CPU %.4fs | Mem %.2f MB\n", run + 1, wall_time, cpu_time, est_mem);
+            printf("Run %d: Wall %.4fs | CPU %.4fs | Mem %.2f MB\n", run + 1, wall_time, seconds, est_mem);
             total_time += seconds;
 
         

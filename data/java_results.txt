@@ -1,0 +1,18 @@
+Run 1: Wall 0.0080 s | CPU 0.0083 s | Mem 0.38 MB
+Run 2: Wall 0.0020 s | CPU 0.0017 s | Mem 0.38 MB
+Run 3: Wall 0.0030 s | CPU 0.0021 s | Mem 0.38 MB
+Run 4: Wall 0.0030 s | CPU 0.0031 s | Mem 0.38 MB
+Run 5: Wall 0.0020 s | CPU 0.0020 s | Mem 0.38 MB
+Average time for 128x128 matrix multiplication over 5 runs: 0.003600 seconds
+Run 1: Wall 0.0180 s | CPU 0.0184 s | Mem 1.50 MB
+Run 2: Wall 0.0220 s | CPU 0.0227 s | Mem 1.50 MB
+Run 3: Wall 0.0200 s | CPU 0.0198 s | Mem 1.50 MB
+Run 4: Wall 0.0200 s | CPU 0.0198 s | Mem 1.50 MB
+Run 5: Wall 0.0200 s | CPU 0.0204 s | Mem 1.50 MB
+Average time for 256x256 matrix multiplication over 5 runs: 0.020000 seconds
+Run 1: Wall 0.1800 s | CPU 0.1795 s | Mem 6.00 MB
+Run 2: Wall 0.1880 s | CPU 0.1879 s | Mem 6.00 MB
+Run 3: Wall 0.1900 s | CPU 0.1902 s | Mem 6.00 MB
+Run 4: Wall 0.1730 s | CPU 0.1726 s | Mem 6.00 MB
+Run 5: Wall 0.1890 s | CPU 0.1889 s | Mem 6.00 MB
+Average time for 512x512 matrix multiplication over 5 runs: 0.184000 seconds

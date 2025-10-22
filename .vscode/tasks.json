@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build C benchmark",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "benchmark_c.c",
+        "matrix.c",
+        "-o",
+        "benchmark_c.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/code/c"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

@@ -39,18 +39,24 @@ Language-Benchmark-of-matrix-multiplication/
 
 ### Python
 cd code/python
+
 pip install psutil
+
 python benchmark_python.py --sizes 128 256 512 --runs 5 --warmup 1
 
 ### Java
 cd code/java
+
 javac *.java
+
 java benchmark_java.java
 
 ### C
 cd code/c
+
 gcc -O3 -march=native matrix.c benchmark_c.c -o benchmark_c.exe
-./bench
+
+./benchmark_c
 
 
 ## Results Summary
